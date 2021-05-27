@@ -1,0 +1,319 @@
+/* globle element style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#page-wrapper {
+    position: relative;
+    
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+/* header and nav */
+
+#header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+
+}
+.logo {
+    width: 60vw;
+}
+
+#header-img {
+    padding-left: 20px;
+    max-width: 300px;
+}
+
+nav > ul {
+    width: 35vw;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+    
+}
+
+
+@media screen and (max-width: 600px){
+    #header {
+        position: relative;
+        display: block;
+        
+
+        
+        text-align: center;
+        margin: auto;
+    }
+
+    #header-img {
+        padding: 0 0 10px;
+
+    }
+
+    .logo {
+        margin: auto;
+        width: 100%;
+        
+        
+    }
+
+    nav ul {
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+        line-height: 2;
+    }
+
+    
+
+    
+
+}
+
+
+/* Hero headings */
+
+#hero {
+    margin:100px auto;
+    
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 4rem;
+    padding-bottom: 10px;
+
+}
+
+form {
+    margin: auto;
+    width: 60%;
+}
+
+#email {
+    width: 60%;
+    padding: 10px;
+    margin:  10px;
+    font-size: 1.4rem;
+    border-radius: 3px;
+    border-color: #00adb5;
+    
+    
+}
+
+@media screen and (max-width: 600px) {
+    #hero {
+        width: 90%;
+        
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    form {
+        width: 80%;
+        
+        
+    }
+
+    #email {
+        width: 100%;
+        padding: 5px;
+        font-size: 1rem;
+    }
+}
+
+
+
+#container {
+    margin: 0px auto;
+    
+    
+}
+
+/* Features */
+#features {
+    margin: auto;
+    width: 60%;
+    line-height: 1.5;
+    padding-bottom: 100px;
+    
+}
+
+#features h2 {
+    font-size: 2rem;
+}
+
+.grid {
+    display: flex;
+    padding: 40px;
+    
+}
+
+.icon {
+    padding: 0 30px;
+    color: #046582;
+}
+
+@media screen and (max-width: 700px) {
+    #features {
+        width: 90%;
+    }
+
+    .grid {
+        display: block;
+        text-align: center;
+        line-height: 2;
+    }
+
+    #features h2 {
+        font-size: 1.5rem;
+    }
+
+
+    .icon {
+        font-size: 10px;
+    }
+
+
+}
+
+
+/* How to use */
+
+
+#how-to-use {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+
+/* Pricing */
+
+#pricing {
+    margin: 50px auto;
+    height: 60%;
+    width: 60%;
+    display: flex;
+    white-space: nowrap;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 992px) {
+    #pricing {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+.level {
+    border: 1px solid #046582 ;
+    width: 250px;
+    margin: 20px;
+}
+
+.level h2 {
+    
+    margin: 10px auto;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.level h3 {
+    background-color: #d5ecc2;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+
+.price-d {
+    line-height: 2;
+    padding: 10px;
+    
+}
+
+
+/* Buttons */
+.btn {
+    background-color: #00adb5;
+    margin: 5px auto 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Footer */
+
+#contact {
+    margin: auto;
+    width: 60%;
+    background-color: #d5ecc2;
+    padding: 20px;
+
+}
+
+
+
+.terms-contact > ul {
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+.terms-contact > p {
+    padding: 0 20px;
+    text-align: end;
+}
+.footer-link > li {
+    padding: 0 20px;
+}
+
+
+
+@media screen and (max-width: 660px) {
+    #contact {
+        width: 90%;
+        
+    }
+
+
+}
